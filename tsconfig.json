@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "es6", "es2015", "es2017", "es2018"],
+    "baseUrl": "src/",
+    "outDir": "build",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "strictFunctionTypes": false,
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es6",
+    "strictNullChecks": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "jsx": "react",
+    "typeRoots": ["src/typings", "./node_modules/@types"]
+  },
+  "include": ["./src/", "config/config.js"],
+  "exclude": ["/node_modules/*", "node_modules"]
+}
